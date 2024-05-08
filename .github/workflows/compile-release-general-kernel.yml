@@ -31,6 +31,7 @@ on:
           - 6.6.y
           - 6.1.y_6.6.y
           - 5.15.y_5.10.y
+          - 5.10.216
       kernel_auto:
         description: "Auto use the latest kernel"
         required: false
@@ -78,7 +79,7 @@ on:
           - -summer-growing
           - -autumn-harvesting
           - -winter-storing
-          - -yourname
+          - -nt
       kernel_config:
         description: "Set the path of kernel .config"
         required: false
